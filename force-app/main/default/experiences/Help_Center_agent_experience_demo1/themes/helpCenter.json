@@ -318,7 +318,7 @@
               "backgroundColor" : "rgb(252, 252, 252)",
               "borderColor" : "transparent",
               "borderRadius" : 21,
-              "borderStyle" : "bottomborder",
+              "borderStyle" : "outline",
               "buttonColor" : "rgb(157, 120, 120)",
               "buttonHoverColor" : "rgba(0,0,0,0.2)",
               "crossObjectTypeaheadApiNames" : [ {
@@ -326,7 +326,7 @@
                 "name" : "FeedItem"
               } ],
               "iconColor" : "#000",
-              "placeholderText" : "Search...",
+              "placeholderText" : "Search Agent ",
               "placeholderTextColor" : "#000",
               "publicDropdownBackgroundColor" : "rgba(255, 255, 255, 1)",
               "publicDropdownBackgroundHoverColor" : "rgba(250, 250, 250, 1)",
@@ -335,7 +335,7 @@
               "publicDropdownTextHoverColor" : "rgba(0, 0, 0, 1)",
               "showSearchButton" : true,
               "textColor" : "#000",
-              "typeaheadResultMax" : 5,
+              "typeaheadResultMax" : 10,
               "useTypeahead" : true
             },
             "componentName" : "forceCommunity:themeSearchHero",
