@@ -1,0 +1,160 @@
+{
+  "appPageId" : "f58e0d46-946b-4bde-beb3-3a8608e805d3",
+  "componentName" : "siteforce:sldsThreeCol444Layout",
+  "id" : "74666238-76fa-41b2-9a43-703dad9656b4",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "maxWidth" : 100,
+        "overlayColor" : "rgba(0,0,0,0.4)",
+        "overlayHoverColor" : "",
+        "radius" : 0,
+        "showTitle" : false,
+        "textAlignment" : "center",
+        "textBgColor" : "rgba(0,0,0,0)",
+        "textBgHoverColor" : "rgba(0,0,0,0)",
+        "textColor" : "",
+        "textHoverColor" : "",
+        "textPosition" : "center center",
+        "title" : "Featured Topics"
+      },
+      "componentName" : "forceTopic:featuredTopics",
+      "id" : "68573a3a-07f7-4d73-a19d-81fba03a27cc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c13a2305-d967-4cd0-a5c6-a0738bbbbc29",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "numberOfArticles" : 5,
+        "showTitle" : false,
+        "title" : "Top Articles",
+        "topicList" : [ {
+          "isPublic" : true,
+          "name" : "0TOB0000000jZnVOAU"
+        }, {
+          "isPublic" : true,
+          "name" : "0TOB0000000jZnTOAU"
+        } ]
+      },
+      "componentName" : "forceCommunity:topArticleList",
+      "id" : "658b1010-2f41-4c61-b72f-046151850418",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dc3738a4-ccc3-4500-8197-8b66e274e7d0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "numberOfArticles" : 5,
+        "showTitle" : false,
+        "title" : "Top Articles",
+        "topicList" : [ {
+          "isPublic" : true,
+          "name" : "0TOB0000000jZnVOAU"
+        }, {
+          "isPublic" : true,
+          "name" : "0TOB0000000jZnTOAU"
+        } ]
+      },
+      "componentName" : "forceCommunity:topArticleList",
+      "id" : "ee5bef93-7471-443d-9130-40a3a3fc125c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a5fb6ae2-24dc-498c-9837-90b99f2e4433",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "numberOfArticles" : 5,
+        "showTitle" : false,
+        "title" : "Top Articles",
+        "topicList" : [ {
+          "isPublic" : true,
+          "name" : "0TOB0000000jZnVOAU"
+        }, {
+          "isPublic" : true,
+          "name" : "0TOB0000000jZnTOAU"
+        } ]
+      },
+      "componentName" : "forceCommunity:topArticleList",
+      "id" : "14d0121f-1e88-4162-b39f-b29624b6a2fb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1dbd1c49-03e6-480f-9ee6-4be1450b2975",
+    "regionName" : "sidebarAlt",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "allowPrepopulatePrechatFields" : true,
+        "avatarImgURL" : "",
+        "defaultMinimizedText" : "Chat with an Expert",
+        "displayHelpButton" : true,
+        "eswConfigurationJSON" : {
+          "baseCoreURL" : "https://capricorn-coffee-dxp.my.salesforce.com",
+          "baseLiveAgentContentURL" : "https://c.gla3-dfw.gus.salesforce.com/content",
+          "baseLiveAgentURL" : "https://d.gla3-dfw.gus.salesforce.com/chat",
+          "buttonId" : "573B0000000GxvO",
+          "deploymentId" : "572B0000000TXE3",
+          "enabledFeatures" : [ "LiveAgent" ],
+          "entryFeature" : "LiveAgent",
+          "eswConfigDevName" : "Brewbot_for_Capricorn",
+          "eswConfigId" : "04IB0000000PDXCMA4",
+          "eswLiveAgentDevName" : "Cap_Man_Queue",
+          "isOfflineCasesEnabled" : "1",
+          "orgId" : "00DB0000000MTRp"
+        },
+        "externalScripts" : "",
+        "externalStyles" : "",
+        "fallbackRouting" : "",
+        "offlineSupportMinimizedText" : "Contact Us",
+        "offlineText" : "Agent Offline",
+        "onlineLoadingText" : "Loading",
+        "prechatBackgroundImgURL" : "",
+        "smallCompanyLogoImgURL" : "",
+        "snippetSettingsFile" : "",
+        "waitingStateBackgroundImgURL" : ""
+      },
+      "componentName" : "forceCommunity:embeddedService",
+      "id" : "551c2043-a0d4-4cca-993e-52f1b3989083",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "de3c2433-4035-4b46-a88b-6c91877ae47d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "bb53832a-00f8-4473-840b-e2115242ceeb",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b09c9094-4442-476a-819d-251ee7eb4f00",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}
