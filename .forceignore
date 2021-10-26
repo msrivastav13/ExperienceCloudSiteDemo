@@ -11,5 +11,8 @@ package.xml
 # Navigation Menus
 force-app/main/default/navigationMenus
 
+# Network Branding
+force-app/main/default/networkBranding
+
 # LWC Jest
 **/__tests__/**
