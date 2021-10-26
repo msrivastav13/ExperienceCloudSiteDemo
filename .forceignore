@@ -8,5 +8,8 @@ package.xml
 **/jsconfig.json
 **/.eslintrc.json
 
+# Navigation Menus
+force-app/main/default/navigationMenus
+
 # LWC Jest
 **/__tests__/**
