@@ -14,8 +14,4 @@
         <fullName>New</fullName>
         <default>true</default>
     </values>
-    <values>
-        <fullName>On Hold</fullName>
-        <default>false</default>
-    </values>
 </BusinessProcess>

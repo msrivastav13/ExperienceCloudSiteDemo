@@ -1,13 +1,33 @@
 {
   "orgName": "mohith.shrivastava company",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "features": ["EnableSetPasswordInApi", "Communities", "Sites", "Knowledge", "LiveAgent", "ServiceCloud"],
   "settings": {
+    "communitiesSettings": {
+        "enableNetworksEnabled": true
+    },
+    "experienceBundleSettings": {
+        "enableExperienceBundleMetadata": true
+    },
     "lightningExperienceSettings": {
-      "enableS1DesktopEnabled": true
+        "enableS1DesktopEnabled": true
     },
     "mobileSettings": {
-      "enableS1EncryptedStoragePref2": false
+        "enableS1EncryptedStoragePref2": false
+    },
+    "userEngagementSettings": {
+        "enableOrchestrationInSandbox": true,
+        "enableShowSalesforceUserAssist": false
+    },
+    "knowledgeSettings": {
+      "enableKnowledge": true
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "liveAgentSettings": {
+      "enableLiveAgent" : true,
+      "enableQuickTextEnabled": true
     }
   }
 }
